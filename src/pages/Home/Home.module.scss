@@ -1,0 +1,113 @@
+@import "../../styles/mixins";
+@import "../../styles/base";
+@import "../../styles/vars";
+
+.main__content {
+    display: grid;
+    gap: 70px;
+    grid-template-columns: 1fr 1fr;
+
+    padding: 150px 0;
+
+    position: relative;
+}
+
+.points-group {
+    position: absolute;
+
+    right: 0;
+    bottom: -5%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding: 10px 0px 10px 10px;
+}
+
+.left-item {
+    position: relative;
+
+    background-color: bisque;
+}
+
+.design {
+    position: absolute;
+
+    &__points {
+        top: -130px;
+    }
+
+    &__point {
+        right: -100%;
+        bottom: 0;
+    }
+
+    &__ellipse-1 {
+        right: -40px;
+        bottom: -60px;
+    }
+
+    &__ellipse-2 {
+        top: -130px;
+        right: -50px;
+    }
+
+    &__ellipse-3 {
+        left: 0;
+        bottom: -50px;
+    }
+
+    &__ellipse-4 {
+        bottom: -100px;
+        right: 200px;
+    }
+
+    &__ellipse-5 {
+       left: -10%; 
+       top: 30%;
+    }
+
+    &__ellipse-6 {
+        right: 0; 
+        top: 100px;
+     }
+
+    &__ellipse-7 {
+        right: 0; 
+        top: -130px;
+     }
+}
+
+.right-item {
+    position: relative;
+
+    max-width: 500px;
+}
+
+.main__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__title {
+    margin-bottom: 12px;
+
+    line-height: 80px;
+}
+
+.main__subtitle {
+    font: 18px;
+    text-transform: uppercase;
+    letter-spacing: .01rem;
+    color: $blue;
+}
+
+.main__btn-wrap {
+    position: relative;
+
+    width: 180px;
+    height: 48px;
+    margin-top: 50px;
+}

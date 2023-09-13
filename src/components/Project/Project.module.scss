@@ -1,0 +1,36 @@
+@import "../../styles/vars";
+
+.project {
+    max-width: 370px;
+}
+
+.project__title {
+    color: $black;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease;
+}
+
+// .card__img {
+//     transition: transform 0.2s ease;
+// };
+
+// .card:hover .card__img {
+//     transform: scale(1.1);
+//     filter: contrast(110%) brightness(1.2) saturate(1.2);
+// }
+
+.project__img {
+    border-radius: 10px;
+    box-shadow: $box-shadow;
+    transition: transform 0.2s ease;
+}
+
+.project:hover .project__img {
+    transform: scale(1.1);
+}
+
+.project:hover .project__title {
+    transform: scale(1.1);
+    font-weight: 500;
+    color: $accent;
+}

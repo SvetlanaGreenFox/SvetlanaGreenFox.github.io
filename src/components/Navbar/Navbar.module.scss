@@ -1,0 +1,35 @@
+@import "../../styles/mixins";
+@import "../../styles/base";
+@import "../../styles/vars";
+
+.nav {
+    padding: 39px 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list__link {
+    font-family: $font-main;
+    font-size: 16px;
+    color: $black;
+}
+
+.nav-list__link--active {
+    position: relative; 
+}
+
+.nav-list__link--active::before {
+    content: "";
+    
+    position: absolute;
+    top: 100%;
+    
+    display: block;
+	height: 3px;
+	width: 100%;
+    background-color:  $green;
+}

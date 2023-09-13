@@ -1,0 +1,11 @@
+// @mixin container {
+//     margin: 0 auto;
+//     max-width: 1140px;
+//     padding: 0 15px;
+// }
+
+@mixin stylesBtn {
+    width: 100%;
+    background-color: $green;
+    color: white;
+}

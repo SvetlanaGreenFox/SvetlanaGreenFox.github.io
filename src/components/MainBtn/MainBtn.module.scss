@@ -1,0 +1,17 @@
+@import "../../styles/mixins";
+@import "../../styles/vars";
+
+.main-btn {
+    @include stylesBtn();
+
+    border-radius: 35px;
+
+    font-size: 16px;
+    font-weight: 400px;
+
+    padding: 15px 17px;
+}
+
+.btn__arrow {
+    margin-left: 6px;
+}
