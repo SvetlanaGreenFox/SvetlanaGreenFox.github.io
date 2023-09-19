@@ -33,7 +33,6 @@ const Home = () => {
                             
                             <p className={ styles["main__subtitle"] }>I’m a frontend developer</p>
                             <h1 className={ className(styles["main__title"], styles["title-1"]) }>Hey everyone <br /> i am Svetlana </h1>
-                            <p>Freelance Web & Mobile  UI/UX Designer & Love to play video game</p>
                             <img className={className(styles.design, styles["design__ellipse-4"])} src={ellipse_4} alt="design"/>
                         </div>
                         <div className={ styles["main__btn-wrap"]}>
