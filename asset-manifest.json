@@ -1,10 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.92458097.css",
-    "main.js": "/static/js/main.ca1cbfb0.js",
+    "main.js": "/static/js/main.fdaedba9.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/project01-big.jpg": "/static/media/project01-big.23f0c29b6b349dcc2a36.jpg",
-    "static/media/project02-big.jpg": "/static/media/project02-big.d826d657998469f1391f.jpg",
     "static/media/project01.png": "/static/media/project01.0dc9284dfd31c4723e42.png",
     "static/media/project02.png": "/static/media/project02.4b3f5b678f7e7c8d4d80.png",
     "static/media/gitHub-blue.svg": "/static/media/gitHub-blue.3dfe2ad4559f409eebbd4f2111d6f3f5.svg",
@@ -21,11 +19,11 @@
     "static/media/ellipse_4.svg": "/static/media/ellipse_4.7dd7b8c97e6d4b327e7305300fefaca4.svg",
     "static/media/point.svg": "/static/media/point.948e7cc207c189028ee630b0d246a86d.svg",
     "main.92458097.css.map": "/static/css/main.92458097.css.map",
-    "main.ca1cbfb0.js.map": "/static/js/main.ca1cbfb0.js.map",
+    "main.fdaedba9.js.map": "/static/js/main.fdaedba9.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92458097.css",
-    "static/js/main.ca1cbfb0.js"
+    "static/js/main.fdaedba9.js"
   ]
 }
