@@ -1,36 +1,34 @@
 import styles from "./About.module.scss";
+import Blockquote from "../../components/Blockquote/Blockquote";
 import classNames from "classnames";
 
 const About = () => {
-    return ( 
-        <main className={ styles.about }>
-            <div className={ styles.container }>
-                <div className={ styles["about__content"] }>
-                    <h1 className={classNames(styles["title-2"], styles["about__title"])}>About Me</h1>
-                    <div className={ styles.about__description }>
-                        <div className={ styles["description-item"] }>
-                            <p>Привет!
+    return (
+        <main className={styles.about}>
+            <div className={styles.container}>
+                <div className={styles["about__content"]}>
+                    <h1 className={classNames(styles["title-2"], styles["about__title"])}>Обо мне</h1>
+                    <div className={styles.about__description}>
+                        <div className={styles["description-item"]}>
+                            <p>
+                                Привет! <br />
                                 Меня зовут Света. Я начинающий Frontend-разработчик.
                                 <br />
-                                Я решила сменить профессию несколько лет назад. 
-                                За это время успела пройти обучение и получила новую специальность.
-                                <br />
-                                В новую профессию меня привела возможность создавать красивые и удобные сервисы.
-                                Работа над продуктом, который приносит пользу - это большая ценность.
-
-                                В сферу моих интересов входит спорт. Я веду активный образ жизни.
+                                Я люблю красивые и удобные интерфейсы.
+                                Меня вдохновляет создавать сервисы, которые полезны людям.
+                                Я много учусь, чтобы расширить арсенал своих инструментов.
+                                <Blockquote quote="Теория без практики мертва, практика без теории – слепа" />
+                                Большую чать моей жизни занимает спорт.
                                 Люблю бег, йогу, воркаут площадки и каратэ.
-                                Тренировки позволяют мне поддерживать высокий уровень энергии и дисциплины. 
+                                Тренировки позволяют мне поддерживать высокий уровень энергии и дисциплины.
+                                <Blockquote quote="Дисциплина - это не ограничение свободы. Это отсечение всего лишнего." />
                             </p>
-                        </div>
-                        <div className={ styles["description-item"] }>
-                            <p>Hello</p>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-     );
+    );
 }
- 
+
 export default About;

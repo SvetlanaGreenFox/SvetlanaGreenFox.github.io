@@ -11,3 +11,11 @@
 
     padding: 8px 25px;
 }
+
+.secondary-btn:hover {
+    @include hoverBtn; 
+}
+
+.secondary-btn:active {
+    @include activeBtn; 
+}

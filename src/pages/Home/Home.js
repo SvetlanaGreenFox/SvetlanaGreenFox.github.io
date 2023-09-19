@@ -22,7 +22,7 @@ const Home = () => {
                     <div className={ className(styles["content__item"], styles["left-item"]) }>
                         <img className={className(styles.design, styles["design__points"])} src={points} alt="design"/>
                         <img className={className(styles.design, styles["design__ellipse-2"])} src={ellipse_2} alt="design"/>
-                        <div>Photo Place</div>
+                        {/* <div>Photo Place</div> */}
                         <img className={className(styles.design, styles["design__ellipse-3"])} src={ellipse_3} alt="design"/>
                         <img className={className(styles.design, styles["design__ellipse-1"])} src={ellipse_1} alt="design"/>
                     </div>

@@ -4,7 +4,7 @@ import styles from "./Project.module.scss";
 
 const Project = ({ project, index }) => {
     const { title, img } = project;
-    console.log(index);
+  
     return (
         <NavLink to={`/project/${index}`}>
             <li className={ styles.project }>

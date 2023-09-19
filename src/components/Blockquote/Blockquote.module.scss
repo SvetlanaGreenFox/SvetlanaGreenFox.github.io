@@ -1,0 +1,8 @@
+@import "../../styles/vars";
+
+.blockquote {
+    padding: 20px;
+    quotes: "«" "»";
+    color: $accent;
+    line-height: 1.15px;
+}

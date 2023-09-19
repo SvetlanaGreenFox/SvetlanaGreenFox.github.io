@@ -2,7 +2,7 @@
 @import "../../styles/vars";
 
 .main-btn {
-    @include stylesBtn();
+    @include stylesBtn;
 
     border-radius: 35px;
 
@@ -14,4 +14,12 @@
 
 .btn__arrow {
     margin-left: 6px;
+}
+
+.main-btn:hover {
+    @include hoverBtn; 
+}
+
+.main-btn:active {
+    @include activeBtn; 
 }
