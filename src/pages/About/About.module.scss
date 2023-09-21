@@ -1,9 +1,6 @@
+@import "../../styles/mixins";
 @import "../../styles/vars";
 @import "../../styles/base";
-
-.about__content {
-    padding: 100px 0;
-}
 
 .about__title {
     margin-bottom: 40px;
@@ -11,4 +8,22 @@
 
 .description-item {
     color: $black;
+}
+
+.text--break {
+    display: block;
+    margin-bottom: -15px;
+}
+
+@include mediaTablet {
+    .about {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@include mediaMobile {
+    .about {
+        margin-bottom: 20px;
+    }
 }

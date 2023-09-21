@@ -1,8 +1,19 @@
+@import "../../styles/mixins";
 @import "../../styles/vars";
 
 .blockquote {
     padding: 20px;
     quotes: "«" "»";
     color: $accent;
-    line-height: 1.15px;
+    line-height: 1.25;
+
+}
+
+@include mediaMobile {
+    .blockquote {
+        text-align: center;
+        background-color: aliceblue;
+        border-radius: 5px;
+        margin: 10px 0;
+    }
 }

@@ -33,3 +33,22 @@
 	width: 100%;
     background-color:  $green;
 }
+
+@include mediaTablet {
+    .nav {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@include mediaMobile {
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+        row-gap: 20px;
+    }
+
+    .nav-list__link {
+        font-size: 18px;
+    }
+}

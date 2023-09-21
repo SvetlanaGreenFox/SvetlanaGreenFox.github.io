@@ -2,7 +2,7 @@
 @import "../../styles/base";
 @import "../../styles/vars";
 
-.main__content {
+.home__content {
     display: grid;
     gap: 70px;
     grid-template-columns: 1fr 1fr;
@@ -86,28 +86,90 @@
     max-width: 500px;
 }
 
-.main__description {
+.home__description {
     display: flex;
     flex-direction: column;
 }
 
-.main__title {
+.home__title {
     margin-bottom: 12px;
 
-    line-height: 80px;
+    line-height: 1.25;
 }
 
-.main__subtitle {
-    font: 18px;
+.home__subtitle {
+    font-size: 18px;
     text-transform: uppercase;
     letter-spacing: .01rem;
     color: $blue;
 }
 
-.main__btn-wrap {
+.home__btn-wrap {
     position: relative;
 
     width: 180px;
     height: 48px;
     margin-top: 50px;
+}
+
+@include mediaTablet {
+    .home {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .home__content {
+        padding-top: 80px;
+    }
+
+    .points-group {
+        flex-direction: row;
+    }
+
+    .design__point,
+    .design__ellipse-4,
+    .design__ellipse-5,
+    .design__ellipse-6,
+    .design__ellipse-7 {
+        display: none;
+    }
+
+    .design__points, 
+    .design__ellipse-2 {
+        top: -50px;
+    }
+
+    .design__ellipse-1,
+    .design__ellipse-3 {
+        bottom: 0;
+    }
+}
+
+@include mediaMobile {
+    .home {
+        margin-bottom: 60px;
+    }
+
+    .design__point,
+    .design__ellipse-1,
+    .design__ellipse-2,
+    .design__ellipse-3,
+    .design__ellipse-4,
+    .design__ellipse-5,
+    .design__ellipse-6,
+    .design__ellipse-7 {
+        display: none;
+    }
+
+    // .points-group {
+    //     bottom: 0;
+    // }
+
+    .home__content {
+        grid-template-columns: 1fr;
+    }
+
+    .home__subtitle {
+        margin-top: 20px;
+    }
 }

@@ -21,11 +21,11 @@ const Navbar = () => {
                             About me
                         </NavLink>
                     </li>
-                    <li className={ styles["nav-list__item"] }>
+                    {/* <li className={ styles["nav-list__item"] }>
                         <NavLink to="/skills" className={ ({ isActive }) =>  isActive ? activeLink : normalLink }>
                             Skills
                         </NavLink>
-                    </li>
+                    </li> */}
                     <li className={ styles["nav-list__item"] }>
                         <NavLink to="/projects" className={ ({ isActive }) =>  isActive ? activeLink : normalLink }>
                             Projects

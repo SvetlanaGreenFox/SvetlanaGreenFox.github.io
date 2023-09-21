@@ -13,7 +13,7 @@ const ProjectPage = () => {
     return (
         <main className={styles["project-page"]}>
             <div className={styles.container}>
-                <h3 className={className(styles["title-2"], styles["projects__title"])}>{title}</h3>
+                <h3 className={className(styles["title-2"], styles["project__title"])}>{title}</h3>
                 <div className={styles["project-page__content"]}>
                     <img className={styles["project__img"]} src={img} alt="" />
 
