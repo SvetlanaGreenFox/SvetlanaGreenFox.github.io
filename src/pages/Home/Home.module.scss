@@ -170,9 +170,9 @@
         display: none;
     }
 
-    // .points-group {
-    //     bottom: 0;
-    // }
+    .design__points {
+        top: -130px;
+    }
 
     .home__content {
         grid-template-columns: 1fr;
@@ -180,5 +180,17 @@
 
     .home__subtitle {
         margin-top: 20px;
+    }
+
+    .photo {
+        max-width: 90%;
+    }
+
+    .home__title {
+        line-height: 1;
+    }
+    
+    .home__subtitle {
+        line-height: 1.15;
     }
 }
