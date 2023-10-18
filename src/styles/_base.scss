@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,400&display=swap');
 @import "./vars";
 @import "./mixins";
 
@@ -9,7 +9,7 @@
     justify-content: space-between;
 
     font-family: $font-main;
-    font-size: 16px;
+    font-size: 18px;
     color: $gray;
     line-height: 24px;
 }
@@ -21,15 +21,13 @@
 }
 
 .title-1 {
-    font-family: $font-title;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
 
     color: $black;
 }
 
 .title-2 {
-    font-family: $font-title;
     font-size: 50px;
     font-weight: 700;
 

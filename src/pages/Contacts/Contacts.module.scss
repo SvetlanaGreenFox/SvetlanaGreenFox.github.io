@@ -45,13 +45,16 @@
 }
 
 @include mediaMobile {
+
     .item__title {
         font-size: 22px;
+        color: $blue;
     }
 
     .contacts__content {
         text-align: center;
         line-height: 1;
+        margin-bottom: 40px;
     }
 
     .contacts__title {
@@ -59,13 +62,4 @@
         margin-bottom: 50px;
     }
 
-    .contacts__content a:hover {
-        color: $green;
-        font-weight: 500;
-    }
 }
-
-// .btn-wrap {
-//     width: 170px;
-//     height: 40px;
-// }

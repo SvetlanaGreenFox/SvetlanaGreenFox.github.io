@@ -17,15 +17,22 @@
 	top: 1px;
 }
 
-@mixin mediaTablet {
-    @media screen and (max-width: $tablet), screen and (max-width: $tablet) and (orientation: portrait) {
-        @content;
-    };
-    // @media screen and (orientation: portrait) {
-    //     @content;
-    // }
+@mixin horizontalLine {
+    content: "";
+
+    position: absolute;
+    width: calc((100% - 200px) / 2);
+    height: 2px;
+    background-color: $green;
 }
 
+@mixin mediaTablet {
+    @media screen and (max-width: $tablet) {
+        @content;
+    };
+}
+
+//screen and (max-width: $tablet) and (orientation: portrait) 
 @mixin mediaTabletPortrait {
     @media screen and (orientation: portrait) {
         @content;

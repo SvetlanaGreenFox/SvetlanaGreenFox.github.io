@@ -13,27 +13,27 @@ const Navbar = () => {
                 <ul className={ styles["nav-list"] }>
                     <li className={ styles["nav-list__item"] }>
                         <NavLink to="/" className={ ({ isActive }) =>  isActive ? activeLink : normalLink }>
-                            Home
+                            Главная
                         </NavLink>
                     </li>
                     <li className={ styles["nav-list__item"] }>
                         <NavLink to="/about" className={ ({ isActive }) =>  isActive ? activeLink : normalLink }>
-                            About me
+                            Обо мне
                         </NavLink>
                     </li>
-                    {/* <li className={ styles["nav-list__item"] }>
+                    <li className={ styles["nav-list__item"] }>
                         <NavLink to="/skills" className={ ({ isActive }) =>  isActive ? activeLink : normalLink }>
-                            Skills
+                            Навыки
                         </NavLink>
-                    </li> */}
+                    </li>
                     <li className={ styles["nav-list__item"] }>
                         <NavLink to="/projects" className={ ({ isActive }) =>  isActive ? activeLink : normalLink }>
-                            Projects
+                            Мои работы
                         </NavLink>
                     </li>
                     <li className={ styles["nav-list__item"] }>
                         <NavLink to="/contacts" className={ ({ isActive }) =>  isActive ? activeLink : normalLink }>
-                            Contacts
+                            Контакты
                         </NavLink>
                     </li>
                 </ul>

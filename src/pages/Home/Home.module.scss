@@ -28,8 +28,6 @@
 
 .left-item {
     position: relative;
-
-    // background-color: bisque;
 }
 
 .design {
@@ -82,13 +80,11 @@
 
 .right-item {
     position: relative;
-
-    max-width: 500px;
-}
-
-.home__description {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+
+    max-width: 500px;
 }
 
 .home__title {
@@ -98,10 +94,12 @@
 }
 
 .home__subtitle {
-    font-size: 18px;
-    text-transform: uppercase;
+    font-size: 30px;
+    
     letter-spacing: .01rem;
-    color: $blue;
+    color: $blue; 
+
+    margin-top: 10px;
 }
 
 .home__btn-wrap {
@@ -110,6 +108,17 @@
     width: 180px;
     height: 48px;
     margin-top: 50px;
+}
+
+.photo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo {
+    max-width: 70%;
+    border-radius: 50%;
 }
 
 @include mediaTablet {

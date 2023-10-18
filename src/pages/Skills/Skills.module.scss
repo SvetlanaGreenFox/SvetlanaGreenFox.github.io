@@ -1,3 +1,166 @@
-.skills {
-    flex: 1 0 auto;
+@import "../../styles/mixins";
+@import "../../styles/vars";
+@import "../../styles/base";
+
+.skills__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-wrapper--design,
+.right-wrapper--design {
+    position: relative;
+}
+
+.left-wrapper--design::after {
+    content: "";
+    position: absolute;
+
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: $green;
+}
+
+.left-wrapper--design::before {
+    @include horizontalLine;
+
+    top: 15px;
+    right: 0;
+}
+
+.right-wrapper--design::after {
+    @include horizontalLine;
+
+    top: 15px;
+    left: 0;
+}
+
+.right-wrapper--design::before {
+    content: "";
+
+    position: absolute;
+    left: -6px;
+    top: 0;
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $green;
+}
+
+
+.skills__title {
+    text-align: center;
+    font-size: 20px;
+    color: $black;
+
+    border: 2px solid $green;
+    border-radius: 5px;
+
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.icons-list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+    gap: 20px;
+
+    padding: 20px;
+}
+
+.icons-list__item {
+    width: 50px;
+}
+
+.skills-list__item {
+    position: relative;
+
+    margin-bottom: 20px;
+    color: $black;
+
+    margin-top: 20px;
+}
+
+.skills-list__item::before {
+    content: "";
+
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 7px;
+    left: -20px;
+
+    background-color: #F9AB00;
+    border-radius: 50%;
+}
+
+@include mediaTablet {
+    .icons-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .skills-list {
+        padding-left: 20px;
+    }
+
+}
+
+@include mediaMobile {
+    .skills__content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 40px;
+
+        position: relative;
+
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .skills__content::before {
+        content: "";
+
+        position: absolute;
+        right: -4px;
+        top: 0;
+
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $green;
+    }
+
+    .skills__content::after {
+        content: "";
+        position: absolute;
+
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 2px;
+        background-color: $green;
+    }
+
+    .right-wrapper--design::after {
+        @include horizontalLine;
+
+        top: 15px;
+        left: calc((100% - 200px) / 2 + 200px );
+    }
+
+    .left-wrapper--design::after,
+    .right-wrapper--design::before {
+        display: none;
+    }
 }

@@ -26,3 +26,15 @@
 .gh-link:active {
 	@include activeBtn;
 }
+
+@include mediaTablet {
+	.gh-link {
+		font-size: 14px;
+	} 
+}
+
+@include mediaMobile {
+	.gh-link {
+		font-size: 14px;
+	}
+}
