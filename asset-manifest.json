@@ -1,12 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdcc2ebf.css",
-    "main.js": "/static/js/main.92e8e090.js",
+    "main.css": "/static/css/main.1ee42875.css",
+    "main.js": "/static/js/main.abe98cf3.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/project01.png": "/static/media/project01.0dc9284dfd31c4723e42.png",
+    "static/media/profile.png": "/static/media/profile.edd95246096819610974.png",
     "static/media/project02.png": "/static/media/project02.4b3f5b678f7e7c8d4d80.png",
     "static/media/gitHub-blue.svg": "/static/media/gitHub-blue.3dfe2ad4559f409eebbd4f2111d6f3f5.svg",
+    "static/media/css.svg": "/static/media/css.6675f241f26af9e32a4ee27f7578d69f.svg",
+    "static/media/react.svg": "/static/media/react.9e9c78facb4ac0be2d2880a01982757a.svg",
     "static/media/gitHub.svg": "/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
+    "static/media/webpack.svg": "/static/media/webpack.1629ea0671b48159f3ff02a3dd32f3b1.svg",
+    "static/media/redux.svg": "/static/media/redux.0093fdee00ecf5136c9f7660ebe5e197.svg",
+    "static/media/html.svg": "/static/media/html.8c11e1a8364b520a311ac9bf8b5d2fbf.svg",
     "static/media/linkedIn.svg": "/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/index.html",
     "static/media/ellipse_6.svg": "/static/media/ellipse_6.1fa678122e70bd22f7953854c244c870.svg",
@@ -14,16 +20,18 @@
     "static/media/ellipse_5.svg": "/static/media/ellipse_5.ee242986c212b3601cd5f6aacf79173b.svg",
     "static/media/ellipse_3.svg": "/static/media/ellipse_3.5368721e2cf8c7714c382e62d67c4977.svg",
     "static/media/ellipse_1.svg": "/static/media/ellipse_1.963e4c41f7d673291f96093d6f8b1e4d.svg",
+    "static/media/javascript.svg": "/static/media/javascript.eb9d2cb6a3b49394e8e20873cb00479e.svg",
     "static/media/ellipse_2.svg": "/static/media/ellipse_2.00c6917644b9f6a93704ff756d64e8f4.svg",
+    "static/media/sass.svg": "/static/media/sass.f50198061464ebe8992ad10f0136fc92.svg",
     "static/media/arrow.svg": "/static/media/arrow.f9d985c4603184ef2e31aa583bacc8c5.svg",
     "static/media/ellipse_4.svg": "/static/media/ellipse_4.7dd7b8c97e6d4b327e7305300fefaca4.svg",
     "static/media/point.svg": "/static/media/point.948e7cc207c189028ee630b0d246a86d.svg",
-    "main.fdcc2ebf.css.map": "/static/css/main.fdcc2ebf.css.map",
-    "main.92e8e090.js.map": "/static/js/main.92e8e090.js.map",
+    "main.1ee42875.css.map": "/static/css/main.1ee42875.css.map",
+    "main.abe98cf3.js.map": "/static/js/main.abe98cf3.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdcc2ebf.css",
-    "static/js/main.92e8e090.js"
+    "static/css/main.1ee42875.css",
+    "static/js/main.abe98cf3.js"
   ]
 }
