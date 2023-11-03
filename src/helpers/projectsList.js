@@ -13,7 +13,7 @@ const projects = [
         title: "Landing Loft House",
         skills: "html, css",
         img: project02,
-        gitHubLink: "https://github.com/SvetlanaGreenFox/landing-page_loft"
+        gitHubLink: "https://svetlanagreenfox.github.io/loft-house"
     },
     {
         title: "ToDo List",
