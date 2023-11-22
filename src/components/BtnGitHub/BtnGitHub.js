@@ -5,7 +5,7 @@ const BtnGitHub = ({ link }) => {
     return ( 
         <a href={link} className={styles["gh-link"]}>
             <img src={icon} alt="Link to git hub page"/>
-            GitHub repo
+            GitHub
         </a>
      );
 }
